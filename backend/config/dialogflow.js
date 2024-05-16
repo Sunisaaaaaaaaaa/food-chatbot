@@ -35,6 +35,8 @@ const detectIntent = async (languageCode, queryText, sessionId) => {
 
   return {
     response: result.fulfillmentText,
+    intent: result.intent.isFallback,
+    endOfConversation: result.intent.endInteraction,
   }
 }
 

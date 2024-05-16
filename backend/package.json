@@ -1,0 +1,25 @@
+{
+  "name": "foodbot-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./config/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^6.2.0",
+    "@google-cloud/storage": "^7.9.0",
+    "dialogflow": "^4.0.3",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.3",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.0",
+    "winston": "^3.13.0"
+  },
+  "description": ""
+}
